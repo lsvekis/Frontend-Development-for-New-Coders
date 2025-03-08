@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Button</title>
+</head>
+<body>
+  <button id="magicButton">Click Me!</button>
+  <script>
+    // Select the button using its ID and add a click event listener
+    document.getElementById("magicButton").addEventListener("click", function() {
+      alert("You just clicked the magic button!");
+    });
+  </script>
+</body>
+</html>
