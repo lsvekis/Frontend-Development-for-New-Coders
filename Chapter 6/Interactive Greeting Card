@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Greeting Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f0f8ff;
+      padding: 20px;
+    }
+    #greetingCard {
+      margin-top: 20px;
+      font-size: 24px;
+      color: #2c3e50;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Interactive Greeting Card</h1>
+  <input type="text" id="userName" placeholder="Enter your name">
+  <button id="greetBtn">Greet Me!</button>
+  <div id="greetingCard"></div>
+  <script>
+    document.getElementById("greetBtn").addEventListener("click", function() {
+      const name = document.getElementById("userName").value;
+      const greetingCard = document.getElementById("greetingCard");
+      greetingCard.textContent = `Hello, ${name}! Welcome to the world of interactive JavaScript!`;
+    });
+  </script>
+</body>
+</html>
