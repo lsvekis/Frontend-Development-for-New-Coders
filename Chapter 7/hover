@@ -1,0 +1,10 @@
+<button id="hoverBtn">Hover Over Me!</button>
+<script>
+  const hoverBtn = document.getElementById("hoverBtn");
+  hoverBtn.addEventListener("mouseover", function() {
+    this.textContent = "You're hovering!";
+  });
+  hoverBtn.addEventListener("mouseout", function() {
+    this.textContent = "Hover Over Me!";
+  });
+</script>
