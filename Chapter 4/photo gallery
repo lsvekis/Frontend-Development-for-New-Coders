@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Photo Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Verdana', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #444;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      transition: transform 0.3s, opacity 0.3s;
+      cursor: pointer;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      opacity: 0.8;
+    }
+    footer {
+      background-color: #444;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Awesome Photo Gallery</h1>
+  </header>
+  <div class="gallery">
+    <img src="https://placehold.co/150?text=Photo+1" alt="Photo 1">
+    <img src="https://placehold.co/150?text=Photo+2" alt="Photo 2">
+    <img src="https://placehold.co/150?text=Photo+3" alt="Photo 3">
+    <img src="https://placehold.co/150?text=Photo+4" alt="Photo 4">
+    <img src="https://placehold.co/150?text=Photo+5" alt="Photo 5">
+    <img src="https://placehold.co/150?text=Photo+6" alt="Photo 6">
+  </div>
+  <footer>
+    <p>&copy; 2025 My Photo Gallery</p>
+  </footer>
+</body>
+</html>
