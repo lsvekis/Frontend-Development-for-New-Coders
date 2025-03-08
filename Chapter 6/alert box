@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Alert</title>
+</head>
+<body>
+  <script>
+    // This alert box displays a greeting message when the page loads
+    alert("Welcome to my interactive webpage!");
+  </script>
+</body>
+</html>
