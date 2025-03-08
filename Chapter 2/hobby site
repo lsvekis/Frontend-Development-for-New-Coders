@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Hobby: Digital Art</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+    main {
+      margin: 20px auto;
+      max-width: 800px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #0066cc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Digital Art World!</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#favorites">Favorites</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi! I’m Lars, and digital art is my passion. I love drawing characters, landscapes, and imaginative worlds. This site is a showcase of my work and my favorite art inspirations.</p>
+      <img src="https://placehold.co/600x300?text=Digital+Art" alt="A sample of digital art">
+    </section>
+    <section id="favorites">
+      <h2>My Favorite Things</h2>
+      <h3>Favorite Tools</h3>
+      <ul>
+        <li>Graphic Tablet</li>
+        <li>Adobe Photoshop</li>
+        <li>Procreate</li>
+      </ul>
+      <h3>Favorite Artists</h3>
+      <ol>
+        <li>Artist One</li>
+        <li>Artist Two</li>
+        <li>Artist Three</li>
+      </ol>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Lars's Digital Art</p>
+  </footer>
+</body>
+</html>
