@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Profile</title>
+</head>
+<body>
+  <header>
+    <h1>My Name: Lars</h1>
+  </header>
+  <main>
+    <p>Hello! I'm Lars, and I love coding, playing sports, and drawing. This is my personal profile page where I share a bit about myself.</p>
+    <h2>My Favorite Things</h2>
+    <ul>
+      <li>Playing Soccer</li>
+      <li>Drawing Comics</li>
+      <li>Listening to Music</li>
+    </ul>
+    <img src="https://placehold.co/150?text=My+Photo" alt="A photo of me">
+  </main>
+  <footer>
+    <p>&copy; 2025 Lars's Profile</p>
+  </footer>
+</body>
+</html>
