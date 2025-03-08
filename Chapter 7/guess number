@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Guess My Number</title>
+  <style>
+    body {
+      font-family: 'Verdana', sans-serif;
+      text-align: center;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 5px;
+    }
+    #message {
+      font-size: 20px;
+      margin-top: 15px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Guess My Number Game!</h1>
+  <p>I am thinking of a number between 1 and 20.</p>
+  <input type="number" id="guessInput" placeholder="Enter your guess">
+  <button id="guessBtn">Submit Guess</button>
+  <div id="message"></div>
+  <script>
+    // Generate a random number between 1 and 20
+    const targetNumber = Math.floor(Math.random() * 20) + 1;
+    let attempts = 0;
+    document.getElementById("guessBtn").addEventListener("click", function() {
+      const guess = parseInt(document.getElementById("guessInput").value);
+      const messageDiv = document.getElementById("message");
+      attempts++;
+      if (guess === targetNumber) {
+        messageDiv.textContent = `Correct! You guessed the number in ${attempts} attempt(s)!`;
+      } else if (guess < targetNumber) {
+        messageDiv.textContent = "Too low! Try again.";
+      } else if (guess > targetNumber) {
+        messageDiv.textContent = "Too high! Try again.";
+      } else {
+        messageDiv.textContent = "Please enter a valid number.";
+      }
+    });
+  </script>
+</body>
+</html>
