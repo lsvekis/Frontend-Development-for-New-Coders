@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Favorite Hobby</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Base styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fdfdfd;
+      color: #333;
+    }
+    header, footer {
+      background-color: #444;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+    nav {
+      background: #666;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    main {
+      padding: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    /* Responsive Styles */
+    @media only screen and (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+      main {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Favorite Hobby</h1>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About My Hobby</h2>
+      <p>I love exploring creative projects related to my favorite hobby. This page shows some of the amazing things I do!</p>
+    </section>
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <img src="https://placehold.co/600x400?text=Hobby+1" alt="Hobby 1">
+      <img src="https://placehold.co/600x400?text=Hobby+2" alt="Hobby 2">
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 My Hobby Site</p>
+  </footer>
+</body>
+</html>
